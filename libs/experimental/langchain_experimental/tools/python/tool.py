@@ -82,7 +82,7 @@ class PythonInputs(BaseModel):
 class PythonAstREPLTool(BaseTool):
     """A tool for running python code in a REPL."""
 
-    name: str = "python_repl_ast"
+    name: str = "python"
     description: str = (
         "A Python shell. Use this to execute python commands. "
         "Input should be a valid python command. "
